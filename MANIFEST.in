@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include custom_akk *.css
+recursive-include custom_akk *.csv
+recursive-include custom_akk *.html
+recursive-include custom_akk *.ico
+recursive-include custom_akk *.js
+recursive-include custom_akk *.json
+recursive-include custom_akk *.md
+recursive-include custom_akk *.png
+recursive-include custom_akk *.py
+recursive-include custom_akk *.svg
+recursive-include custom_akk *.txt
+recursive-exclude custom_akk *.pyc
